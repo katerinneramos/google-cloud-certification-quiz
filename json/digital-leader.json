@@ -6,7 +6,7 @@
             "questions": [
                 {
                     "question": "Imagina que eres el CTO de BrightBooks, una plataforma en línea que ofrece una amplia colección de libros electrónicos y audiolibros a sus usuarios. Estás explorando diferentes modelos de servicios en la nube para determinar la mejor manera de gestionar tu aplicación y sus necesidades de infraestructura. ¿Por qué SaaS sería la elección correcta para BrightBooks?",
-                    "answer": "B. Quieres minimizar el nivel de gestión por parte de BrightBooks",
+                    "answer": "B. Quieres minimizar el nivel de gestión por parte de BrightBooks.",
                     "type": "multiple",
                     "options": [
                         "A. Quieres un equilibrio entre la flexibilidad para BrightBooks y el nivel de gestión por parte del proveedor de la nube.",
@@ -30,7 +30,7 @@
                 },
                 {
                     "question": "Global Journeys, una agencia de viajes en línea, ha adquirido tres aplicaciones de viaje en diferentes regiones. Para optimizar operaciones y minimizar costos de infraestructura, ¿cómo debería integrar estas nuevas apps?",
-                    "answer": "B. Hospedar todos los servicios de las apps adquiridas junto con los existentes en la nube pública.",
+                    "answer": "B. Hospedar todos los servicios adquiridos junto con los existentes en la nube pública.",
                     "type": "multiple",
                     "options": [
                         "A. Hospedar todos los servicios adquiridos on-premises junto con los existentes.",
@@ -42,7 +42,7 @@
                 },
                 {
                     "question": "PixieArt opera sus aplicaciones creativas en una nube privada sobre un hipervisor y quiere migrar rápidamente a Google Cloud aprovechando servicios gestionados. ¿Qué debería hacer?",
-                    "answer": "B. Migrar las cargas de trabajo a Compute Engine.",
+                    "answer": "B. Migrar a Compute Engine.",
                     "type": "multiple",
                     "options": [
                         "A. Migrar a Google Cloud VMware Engine.",
@@ -141,10 +141,10 @@
                     "answer": "Escalabilidad y flexibilidad",
                     "type": "multiple",
                     "options": [
-                        "Escalabilidad y flexibilidad",
-                        "Menor seguridad",
                         "Dependencia de un solo servidor",
-                        "Reducción de innovación"
+                        "Reducción de innovación",
+                        "Escalabilidad y flexibilidad",
+                        "Menor seguridad"
                     ],
                     "explanation": "La nube permite escalar recursos dinámicamente y adaptarse rápidamente a las necesidades del negocio."
                 },
@@ -153,9 +153,9 @@
                     "answer": "Greenfield",
                     "type": "multiple",
                     "options": [
-                        "Greenfield",
                         "Brownfield",
                         "Hybrid Cloud",
+                        "Greenfield",
                         "Multi-Cloud"
                     ],
                     "explanation": "Greenfield se refiere a crear soluciones desde cero sin depender de sistemas existentes."
@@ -165,10 +165,10 @@
                     "answer": "Brownfield",
                     "type": "multiple",
                     "options": [
-                        "Brownfield",
-                        "Greenfield",
                         "Serverless",
-                        "Multi-Cloud"
+                        "Multi-Cloud",
+                        "Brownfield",
+                        "Greenfield"
                     ],
                     "explanation": "Brownfield implica adaptar y modernizar sistemas existentes para aprovechar tecnologías modernas."
                 },
@@ -177,8 +177,8 @@
                     "answer": "Zero Trust",
                     "type": "multiple",
                     "options": [
-                        "Zero Trust",
                         "Firewall tradicional",
+                        "Zero Trust",
                         "VPN corporativa",
                         "Privileged Access"
                     ],
@@ -189,10 +189,10 @@
                     "answer": "Reducción de la complejidad operativa",
                     "type": "multiple",
                     "options": [
-                        "Reducción de la complejidad operativa",
                         "Mayor necesidad de servidores físicos",
                         "Mayor costo de mantenimiento",
-                        "Dependencia de hardware local"
+                        "Dependencia de hardware local",
+                        "Reducción de la complejidad operativa"
                     ],
                     "explanation": "Serverless permite enfocarse en desarrollo y negocio, sin preocuparse por la infraestructura subyacente."
                 },
@@ -213,8 +213,8 @@
                     "answer": "Mayor eficiencia y reducción de errores",
                     "type": "multiple",
                     "options": [
-                        "Mayor eficiencia y reducción de errores",
                         "Menor seguridad",
+                        "Mayor eficiencia y reducción de errores",
                         "Incremento de costos operativos",
                         "Mayor dependencia de TI manual"
                     ],
@@ -237,10 +237,10 @@
                     "answer": "Adopción ágil de la nube",
                     "type": "multiple",
                     "options": [
-                        "Adopción ágil de la nube",
                         "Mantener todos los sistemas on-premises",
                         "Reducir inversión en TI",
-                        "Solo capacitar a personal administrativo"
+                        "Solo capacitar a personal administrativo",
+                        "Adopción ágil de la nube"
                     ],
                     "explanation": "Adoptar la nube ágilmente permite innovar y desplegar rápidamente nuevos servicios digitales."
                 }
@@ -350,10 +350,10 @@
                     "answer": "Vertex AI",
                     "type": "multiple",
                     "options": [
-                        "Vertex AI",
                         "Cloud Spanner",
                         "Cloud SQL",
-                        "App Engine"
+                        "App Engine",
+                        "Vertex AI"
                     ],
                     "explanation": "Vertex AI permite entrenar, desplegar y gestionar modelos ML con grandes volúmenes de datos."
                 },
@@ -374,9 +374,9 @@
                     "answer": "BigQuery",
                     "type": "multiple",
                     "options": [
-                        "BigQuery",
                         "Cloud SQL",
                         "Cloud Storage",
+                        "BigQuery",
                         "Dataproc"
                     ],
                     "explanation": "BigQuery es un data warehouse serverless que permite análisis rápido y escalable de grandes volúmenes de datos."
@@ -398,10 +398,10 @@
                     "answer": "Cloud Pub/Sub",
                     "type": "multiple",
                     "options": [
-                        "Cloud Pub/Sub",
                         "Cloud Storage",
                         "Cloud SQL",
-                        "Dataproc"
+                        "Dataproc",
+                        "Cloud Pub/Sub"
                     ],
                     "explanation": "Cloud Pub/Sub permite la ingesta y transmisión de eventos en tiempo real de manera confiable y escalable."
                 },
@@ -422,10 +422,10 @@
                     "answer": "Cloud Dataprep",
                     "type": "multiple",
                     "options": [
-                        "Cloud Dataprep",
                         "BigQuery ML",
                         "Cloud Dataflow",
-                        "Cloud Storage"
+                        "Cloud Storage",
+                        "Cloud Dataprep"
                     ],
                     "explanation": "Cloud Dataprep permite preparar datos mediante una interfaz visual, transformando y limpiando datos antes del análisis."
                 },
@@ -434,8 +434,8 @@
                     "answer": "Cloud Composer",
                     "type": "multiple",
                     "options": [
-                        "Cloud Composer",
                         "Cloud Functions",
+                        "Cloud Composer",
                         "Cloud Dataflow",
                         "BigQuery"
                     ],
@@ -446,10 +446,10 @@
                     "answer": "BigQuery ML",
                     "type": "multiple",
                     "options": [
-                        "BigQuery ML",
                         "Vertex AI",
                         "Cloud Dataproc",
-                        "Cloud AutoML"
+                        "Cloud AutoML",
+                        "BigQuery ML"
                     ],
                     "explanation": "BigQuery ML permite entrenar y ejecutar modelos de ML directamente sobre datos almacenados en BigQuery usando consultas SQL."
                 },
@@ -458,9 +458,9 @@
                     "answer": "Dataplex",
                     "type": "multiple",
                     "options": [
-                        "Dataplex",
                         "Cloud DLP",
                         "Cloud IAM",
+                        "Dataplex",
                         "Cloud Logging"
                     ],
                     "explanation": "Dataplex permite organizar, gobernar y asegurar los datos en Google Cloud, asegurando cumplimiento y control centralizado."
@@ -470,9 +470,9 @@
                     "answer": "Cloud Storage",
                     "type": "multiple",
                     "options": [
-                        "Cloud Storage",
                         "Cloud SQL",
                         "BigQuery",
+                        "Cloud Storage",
                         "Cloud Dataproc"
                     ],
                     "explanation": "Cloud Storage es un servicio de almacenamiento escalable y duradero, ideal para grandes volúmenes de datos que serán procesados posteriormente."
@@ -482,10 +482,10 @@
                     "answer": "Cloud Dataflow + BigQuery",
                     "type": "multiple",
                     "options": [
-                        "Cloud Dataflow + BigQuery",
                         "Cloud Dataproc + Cloud Storage",
                         "Cloud Pub/Sub + Cloud Functions",
-                        "BigQuery ML + Dataprep"
+                        "BigQuery ML + Dataprep",
+                        "Cloud Dataflow + BigQuery"
                     ],
                     "explanation": "Cloud Dataflow procesa datos en batch y streaming y BigQuery permite analizarlos a gran escala, combinando ambos para análisis histórico y en tiempo real."
                 }
@@ -535,8 +535,8 @@
                     "answer": "Cloud Pub/Sub",
                     "type": "multiple",
                     "options": [
-                        "Cloud Pub/Sub",
                         "BigQuery",
+                        "Cloud Pub/Sub",
                         "Vertex AI",
                         "Cloud SQL"
                     ],
@@ -559,10 +559,10 @@
                     "answer": "BigQuery ML",
                     "type": "multiple",
                     "options": [
-                        "BigQuery ML",
                         "Vertex AI",
                         "Cloud ML Engine",
-                        "TensorFlow Extended"
+                        "TensorFlow Extended",
+                        "BigQuery ML"
                     ],
                     "explanation": "BigQuery ML permite entrenar y ejecutar modelos de machine learning directamente en BigQuery utilizando SQL."
                 },
@@ -596,8 +596,8 @@
                     "type": "multiple",
                     "options": [
                         "Cloud Vision API",
-                        "Vertex AI Vision AutoML",
                         "TensorFlow",
+                        "Vertex AI Vision AutoML",
                         "BigQuery ML"
                     ],
                     "explanation": "Vertex AI Vision AutoML permite la clasificación y reconocimiento de imágenes mediante un enfoque de AutoML."
@@ -668,9 +668,9 @@
                     "type": "multiple",
                     "options": [
                         "Cloud Text-to-Speech",
-                        "Cloud Speech-to-Text",
                         "Cloud Translation API",
-                        "Vertex AI"
+                        "Vertex AI",
+                        "Cloud Speech-to-Text"
                     ],
                     "explanation": "Cloud Speech-to-Text permite transcribir audio a texto con soporte para múltiples idiomas y formatos."
                 },
@@ -703,10 +703,10 @@
                     "answer": "Cloud Dataflow",
                     "type": "multiple",
                     "options": [
-                        "Cloud Dataflow",
                         "Cloud Pub/Sub",
                         "Cloud Functions",
-                        "BigQuery ML"
+                        "BigQuery ML",
+                        "Cloud Dataflow"
                     ],
                     "explanation": "Cloud Dataflow permite procesar y transformar datos de manera escalable, tanto en batch como en streaming, antes de usar ML."
                 },
@@ -715,10 +715,10 @@
                     "answer": "Vertex AI Generative AI",
                     "type": "multiple",
                     "options": [
-                        "Vertex AI Generative AI",
                         "Cloud Natural Language API",
                         "Cloud Vision AI",
-                        "Cloud Translation API"
+                        "Cloud Translation API",
+                        "Vertex AI Generative AI"
                     ],
                     "explanation": "Vertex AI Generative AI permite generar texto o contenido a partir de prompts, utilizando modelos generativos avanzados."
                 },
@@ -727,8 +727,8 @@
                     "answer": "Looker",
                     "type": "multiple",
                     "options": [
-                        "Looker",
                         "Cloud Monitoring",
+                        "Looker",
                         "Cloud Logging",
                         "BigQuery ML"
                     ],
@@ -781,9 +781,9 @@
                     "type": "multiple",
                     "options": [
                         "Cloud IAM",
-                        "Cloud Security Command Center (SCC)",
                         "Cloud Logging",
-                        "Cloud Audit Logs"
+                        "Cloud Audit Logs",
+                        "Cloud Security Command Center (SCC)"
                     ],
                     "explanation": "SCC ayuda a detectar, analizar y responder a amenazas de seguridad."
                 },
@@ -828,9 +828,9 @@
                     "answer": "Implementar autenticación multifactor (MFA) con Cloud Identity",
                     "type": "multiple",
                     "options": [
-                        "Implementar autenticación multifactor (MFA) con Cloud Identity",
                         "Usar Cloud NAT para restringir accesos externos",
                         "Permitir acceso con claves SSH sin restricciones",
+                        "Implementar autenticación multifactor (MFA) con Cloud Identity",
                         "Habilitar Cloud CDN para proteger recursos internos"
                     ],
                     "explanation": "La MFA reduce riesgos de accesos no autorizados."
@@ -865,9 +865,9 @@
                     "type": "multiple",
                     "options": [
                         "Cloud IAM",
-                        "Cloud Audit Logs",
                         "Cloud Security Command Center",
-                        "BigQuery"
+                        "BigQuery",
+                        "Cloud Audit Logs"
                     ],
                     "explanation": "Cloud Audit Logs proporciona registros detallados de actividades y eventos de seguridad en Google Cloud."
                 },
@@ -876,10 +876,10 @@
                     "answer": "Cloud IAM con políticas de roles personalizados",
                     "type": "multiple",
                     "options": [
-                        "Cloud IAM con políticas de roles personalizados",
                         "Cloud VPN",
                         "Cloud NAT",
-                        "Cloud Functions"
+                        "Cloud Functions",
+                        "Cloud IAM con políticas de roles personalizados"
                     ],
                     "explanation": "Cloud IAM con roles personalizados permite aplicar el principio de mínimo privilegio asignando permisos específicos a cada usuario."
                 },
@@ -888,8 +888,8 @@
                     "answer": "BigQuery Customer-Managed Encryption Keys (CMEK)",
                     "type": "multiple",
                     "options": [
-                        "BigQuery Customer-Managed Encryption Keys (CMEK)",
                         "Cloud SQL",
+                        "BigQuery Customer-Managed Encryption Keys (CMEK)",
                         "Cloud NAT",
                         "Cloud DNS"
                     ],
@@ -973,9 +973,9 @@
                     "type": "multiple",
                     "options": [
                         "Diseño monolítico",
-                        "Diseño multi-región y redundancia",
                         "Uso exclusivo de una zona",
-                        "Diseño single-server"
+                        "Diseño single-server",
+                        "Diseño multi-región y redundancia"
                     ],
                     "explanation": "Distribuir la aplicación en varias regiones y usar redundancia reduce riesgos de fallas y mejora la disponibilidad."
                 }
@@ -1013,10 +1013,10 @@
                     "answer": "Cloud VPN",
                     "type": "multiple",
                     "options": [
-                        "Cloud VPN",
                         "Cloud Interconnect",
                         "Cloud NAT",
-                        "Cloud Load Balancing"
+                        "Cloud Load Balancing",
+                        "Cloud VPN"
                     ],
                     "explanation": "Cloud VPN permite establecer conexiones seguras y encriptadas entre redes on-premises y Google Cloud."
                 },
@@ -1025,10 +1025,10 @@
                     "answer": "Cloud CDN",
                     "type": "multiple",
                     "options": [
-                        "Cloud CDN",
                         "Cloud Load Balancing",
                         "Cloud Interconnect",
-                        "Cloud NAT"
+                        "Cloud NAT",
+                        "Cloud CDN"
                     ],
                     "explanation": "Cloud CDN permite almacenar en caché contenido estático en ubicaciones distribuidas globalmente para mejorar la latencia y reducir costos."
                 },
@@ -1037,8 +1037,8 @@
                     "answer": "VPC Peering",
                     "type": "multiple",
                     "options": [
-                        "VPC Peering",
                         "Cloud VPN",
+                        "VPC Peering",
                         "Cloud Interconnect",
                         "Cloud Armor"
                     ],
@@ -1049,10 +1049,10 @@
                     "answer": "Google Cloud Firewall",
                     "type": "multiple",
                     "options": [
-                        "Google Cloud Firewall",
                         "Cloud Armor",
                         "Cloud NAT",
-                        "Cloud VPN"
+                        "Cloud VPN",
+                        "Google Cloud Firewall"
                     ],
                     "explanation": "Google Cloud Firewall permite definir reglas avanzadas de control de tráfico para proteger los recursos de red."
                 },
@@ -1061,9 +1061,9 @@
                     "answer": "Dedicated Interconnect",
                     "type": "multiple",
                     "options": [
-                        "Dedicated Interconnect",
                         "Cloud VPN",
                         "Partner Interconnect",
+                        "Dedicated Interconnect",
                         "Cloud NAT"
                     ],
                     "explanation": "Dedicated Interconnect proporciona conexiones de baja latencia y alta disponibilidad entre Google Cloud y redes on-premises."
@@ -1073,8 +1073,8 @@
                     "answer": "Cloud Identity & Access Management (IAM)",
                     "type": "multiple",
                     "options": [
-                        "Cloud Identity & Access Management (IAM)",
                         "Cloud Security Command Center",
+                        "Cloud Identity & Access Management (IAM)",
                         "Cloud Firewall",
                         "Cloud Armor"
                     ],
@@ -1122,9 +1122,9 @@
                     "type": "multiple",
                     "options": [
                         "Cloud Identity-Aware Proxy (IAP)",
-                        "Cloud Key Management Service (KMS)",
                         "Cloud Armor",
-                        "Cloud Security Command Center (SCC)"
+                        "Cloud Security Command Center (SCC)",
+                        "Cloud Key Management Service (KMS)"
                     ],
                     "explanation": "Cloud KMS permite la gestión, rotación y control de claves de cifrado usadas en otros servicios de Google Cloud."
                 },
@@ -1283,9 +1283,9 @@
                     "type": "multiple",
                     "options": [
                         "Monitorear métricas de desempeño",
-                        "Recolectar y almacenar logs de servicios y aplicaciones",
                         "Gestionar identidades",
-                        "Definir políticas de firewall"
+                        "Definir políticas de firewall",
+                        "Recolectar y almacenar logs de servicios y aplicaciones"
                     ],
                     "explanation": "Cloud Logging permite centralizar y analizar los registros de aplicaciones y servicios."
                 },
@@ -1295,9 +1295,9 @@
                     "type": "multiple",
                     "options": [
                         "Almacenar logs históricos",
-                        "Supervisar el desempeño de aplicaciones y servicios en tiempo real",
                         "Cifrar datos",
-                        "Crear políticas de IAM"
+                        "Crear políticas de IAM",
+                        "Supervisar el desempeño de aplicaciones y servicios en tiempo real"
                     ],
                     "explanation": "Cloud Monitoring ofrece métricas, dashboards y alertas para operaciones en la nube."
                 },
